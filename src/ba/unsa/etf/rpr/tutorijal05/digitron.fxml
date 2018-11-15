@@ -6,7 +6,13 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
+<?import java.net.URL?>
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rpr.tutorijal05.Controller">
+    <stylesheets>
+        <URL value="@digitron.css">
+        </URL>
+    </stylesheets>
+
     <children>
         <Pane prefHeight="250.0" prefWidth="200.0">
             <children>
@@ -21,7 +27,7 @@
                 <Button layoutX="106.0" layoutY="93.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="39.0" text="9" />
                 <Button layoutX="61.0" layoutY="93.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="39.0" text="8" />
                 <Button layoutX="14.0" layoutY="93.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="39.0" text="7" />
-                <Button layoutX="155.0" layoutY="171.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="39.0" text="=" />
+                <Button styleClass="jednako"  layoutX="155.0" layoutY="171.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="39.0" text="=" />
                 <Button layoutX="155.0" layoutY="93.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="39.0" text="+" />
                 <Button layoutX="14.0" layoutY="58.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="39.0" text="\%" />
                 <Button layoutX="61.0" layoutY="58.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="39.0" text="/" />
